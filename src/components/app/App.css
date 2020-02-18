@@ -4,6 +4,8 @@
 
 .App-logo {
   height: 40vmin;
+  left: -15vw;
+  position:relative;
   pointer-events: none;
 }
 
@@ -13,11 +15,25 @@
   }
 }
 
-.App-header {
+.tasklist {
+  border: 2px solid white;
+  padding: 100px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  position:relative;
+  text-align:center;
+}
+
+.tasklist p {
+  position:absolute;
+  border-bottom:2px solid white;
+  top: 0;
+}
+
+.App-Main {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
