@@ -17,17 +17,17 @@
 
 .tasklist {
   border: 2px solid white;
-  padding: 100px;
+  padding: 75px;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   position:relative;
   text-align:center;
 }
 
-.tasklist p {
-  position:absolute;
+.tasklist > p {
   border-bottom:2px solid white;
-  top: 0;
+  margin: 0 auto 30px auto;
+  width: fit-content;
 }
 
 .App-Main {
